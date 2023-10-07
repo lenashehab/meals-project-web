@@ -1,0 +1,129 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #f8f6f6
+}
+
+
+.body {
+    background-color: black;
+}
+
+/* navbar */
+#sideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    height: 100vh;
+}
+
+.mynav {
+    width: 60px;
+    background-color: #f8f6f6;
+}
+
+.ul-side {
+    height: 100vh;
+    padding: 30px;
+    padding-right: 100px;
+    background-color: #000;
+    margin-left: -210px;
+}
+
+.ul-side li {
+    padding-bottom: 1.8rem;
+}
+
+.ul-side a {
+    text-decoration: none;
+    color: #f8f6f6;
+
+}
+
+#open-close {
+    position: relative;
+    top: 35%;
+    left: 30%;
+    transform: translatex(-50%,-50%);
+}
+
+#open-icon:hover {
+    cursor: pointer;
+}
+
+#close-icon{
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.share-icons {
+    position: relative;
+    top: 70%;
+    left: 90%;
+    transform: translate(-50%);
+}
+
+/* main page */
+.meal-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, .7);
+    color: #000;
+    font-weight: 800;
+    transition: all 1s;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+.meal-box:hover .layer {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.h2-color {
+    color: #000;
+}
+
+/* search page */
+
+.form-control {
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 0%;
+}
+::placeholder{
+    color:#ced4da;
+}
+/* recipe instructions */
+
+.youtube-button {
+    background-color: #F70000;
+}
+
+.youtube-button:hover {
+    background-color: #F70000;
+    border: none;
+}
